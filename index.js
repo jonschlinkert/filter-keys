@@ -1,6 +1,6 @@
 'use strict';
 
-var multimatch = require('multimatch');
+var mm = require('micromatch');
 
 module.exports = function filterKeys(o, patterns) {
   if (o == null) {
@@ -8,9 +8,11 @@ module.exports = function filterKeys(o, patterns) {
   }
 
   var keys = Object.keys(o);
+  if (!patterns) return keys;
+
   if (arguments.length === 1) {
     return keys;
   }
 
-  return multimatch(keys, patterns);
+  return mm(keys, patterns);
 };
