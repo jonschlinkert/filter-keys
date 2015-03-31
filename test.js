@@ -2,11 +2,12 @@
  * filter-keys <https://github.com/jonschlinkert/filter-keys>
  *
  * Copyright (c) 2014-2015, Jon Schlinkert.
- * Licensed under the MIT License
+ * Licensed under the MIT License.
  */
 
 'use strict';
 
+/* deps:mocha */
 var assert = require('assert');
 var should = require('should');
 var filterKeys = require('./');
