@@ -1,7 +1,7 @@
 {
   "name": "filter-keys",
   "description": "Filter the keys of an object using glob patterns.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/jonschlinkert/filter-keys",
   "author": {
     "name": "Jon Schlinkert",
@@ -16,32 +16,38 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/jonschlinkert/filter-keys/blob/master/LICENSE-MIT"
+    "url": "https://github.com/jonschlinkert/filter-keys/blob/master/LICENSE"
   },
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "dependencies": {
-    "micromatch": "^1.0.1"
+    "micromatch": "^2.1.5"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "^4.1.0"
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
   },
   "keywords": [
     "filter",
+    "find",
     "glob",
-    "js",
     "key",
     "keys",
     "match",
     "object",
     "pattern",
-    "util",
-    "utility"
+    "properties",
+    "property",
+    "props",
+    "regex",
+    "test"
   ]
 }
