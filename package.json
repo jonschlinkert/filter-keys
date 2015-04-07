@@ -1,7 +1,7 @@
 {
   "name": "filter-keys",
   "description": "Filter the keys of an object using glob patterns.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/jonschlinkert/filter-keys",
   "author": {
     "name": "Jon Schlinkert",
